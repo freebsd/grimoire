@@ -29,6 +29,12 @@ version of the slide deck.
 All these dashboards are available under the `dashboards` folder from this repository.
 The instructions to import them into OpenSearch Dashboards are available in [this section](#How-to-import-the-dashboards-from-OpenSearch-Dashboards).
 
+The dashboards contain instructions on how to use them and interpret the different 
+visualizations. In most of the widgets, you will see a little "information" button next
+to the title. If you place your mouse over this button, you will see a helping text.
+
+![Information text in the visualizations](imgs/example-helping-text.png)
+
 ### Characterization 1 - Overview
 
 This dashboard offers an overview of the Bugs submitted for all the Products in the
