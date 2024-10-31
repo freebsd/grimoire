@@ -43,6 +43,15 @@ selected period, detailing the amount of activity coming from each Product.
 
 ![Overview](imgs/Characterization1-Overview.png)
 
+#### Metrics
+
+* Overall numbers (Bugs, Submitters, Assignees, Products, Components).
+* Number of Bugs, Submitters and Assignees per Product.
+* Top Bug Submitters.
+  * Author name, Author organization, number of Bugs, number of Products and number of Collaborators.
+* Evolution of Bugs Submitted by their Current Status.
+* Distribution of Bugs Submitted by Product and Severity (%).
+
 ### Characterization 2 -  Backlog Growth
 
 This dashboard focuses on efficiency in closing bugs in the selected time frame. The
@@ -52,6 +61,12 @@ Bugzilla index does not contain the closing date of the Bugs, so the values are
 approximated using the date of the last comment in "Closed" bugs.
 
 ![Backlog Growth](imgs/Characterization2-Backlog_Growth.png)
+
+#### Metrics
+
+* Overall numbers of bugs by status (Submitted, Closed, and Open).
+* Evolution of the Bug Backlog over time.
+* BMI(Backlog Management Index) over time (%).
 
 ### Characterization 3 - Open Bugs: Attention times
 
@@ -63,6 +78,14 @@ more than 3 months ago.
 
 ![Open Bugs - Attention Times](imgs/Characterization3-Open_Bugs_Attention_times.png)
 
+#### Metrics
+
+* Overall numbers: Breakdown of the number of Bugs by their attention times.
+  * "Submitted", "Attended and Recently Commented", "Unattended", and "Abandoned".
+* Time evolution: When were the Unattended and Abandoned Bugs created?
+* Open Bugs by Time to First Attention.
+* Open Bugs by Time since Last Comment.
+
 ### Characterization 4 - Open Bugs Needing Attention
 
 Dashboard focused on the Open Bugs needing more attention, submitted during the selected
@@ -72,6 +95,13 @@ other comments, but the last comment was made more than 3 months ago. By default
 with severity "Affects Only Me" are excluded.
 
 ![Open Bugs - Needing Attention](imgs/Characterization4-Open_Bugs_Needing_Attention.png)
+
+#### Metrics
+
+* Overall numbers: Breakdown of the number of Bugs by their attention times.
+  * "Total", "Attended and Recently Commented", "Unattended", and "Abandoned".
+* List of Unattended Bugs.
+* List of Bugs by the Time since the Last Comment.
 
 ### Characterization 5 -  Enhanced Bug List
 
@@ -83,6 +113,12 @@ smaller time frame.
 
 ![Enhanced Bug List](imgs/Characterization5-Enhanced_Bug_List.png)
 
+#### Metrics
+
+* Overall numbers (Bugs, Submitters, Assignees, Products, Components).
+* Table of Bugs Submitted.
+  * ID, URL, Product, Summary, Keyword, Author, Assignee, Status, Resolution.
+  * Days to 1st attention, Creation date, Date of the last change, Date of the last comment.
 
 ## How to import the dashboards from OpenSearch Dashboards
 
