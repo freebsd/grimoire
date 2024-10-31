@@ -19,6 +19,7 @@ options.
 * [Characterization Dashboards](#characterization-dashboards).
 * [How to import the dashboards from OpenSearch Dashboards](#how-to-import-the-dashboards-from-opensearch-dashboards).
 * [Bugzilla Dataset](#bugzilla-dataset).
+* [Useful Links](#useful-links).
 
 ## Slides: Characterization of the Bugzilla Backlog
 
@@ -160,3 +161,12 @@ need information about them, it is available below.
 | Index Pattern                | Content                       |
 |------------------------------|-------------------------------|
 | [bugzilla](docs/bugzilla.md) | Bugs of the Bugzilla instance |
+
+## Useful Links
+
+* [BAP Documentation](https://bap.bitergia.com/).
+* [Bitergia Analytics: Masterclass videos](https://bap.bitergia.com/new/masterclass_videos/).
+* [Bugzilla Data Schema (upstream version from GrimoireLab)](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/bugzilla.csv).
+* [GrimoireLab Website](https://chaoss.github.io/grimoirelab/).
+* [CHAOSS Website](https://chaoss.community/).
+* [Back to top](#freebsd-characterization-of-the-bugzilla-backlog).
