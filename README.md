@@ -18,6 +18,7 @@ options.
 * [Slides: Characterization of the Bugzilla Backlog](#slides-characterization-of-the-bugzilla-backlog).
 * [Characterization Dashboards](#characterization-dashboards).
 * [How to import the dashboards from OpenSearch Dashboards](#how-to-import-the-dashboards-from-opensearch-dashboards).
+* [Bugzilla Dataset](#bugzilla-dataset).
 
 ## Slides: Characterization of the Bugzilla Backlog
 
@@ -85,6 +86,9 @@ smaller time frame.
 
 ## How to import the dashboards from OpenSearch Dashboards
 
+⚠️ For these dashboards to work, the bugzilla enriched index must be under an alias named
+`bugzilla`, because the index pattern and the dashboards point to this alias.
+
 To import the Dashboards provided by Bitergia (including the related visualizations and
 the index pattern), go to the “Dashboards Management” section, click on “Saved Objects”
 and then “Import.” Then, select the `.ndjson` files under the `dashboards` directory and
@@ -97,3 +101,26 @@ Dashboards at once by selecting the file `all-characterization-dashboards.ndjson
 Now, the dashboards should be available under the “Dashboards” section.
 
 ![How to import dashboards](imgs/import-dashboards.png)
+
+## Bugzilla Dataset
+
+In this section we describe the structure of the index containing the Bugzilla data. 
+This index contains one document per Bugzilla ticket.
+
+### Bugs
+        
+The documents in this index are about the bugs reported in a Bugzilla instance (one
+document per bug). BAP can extract information about the reporters, assignees, and
+resolvers of these issues. It can also analyze the status, the number of changes, the
+number of comments, and other metadata associated with each bug, such as the Product and
+Component on which the bug was reported to.
+
+### Data Model
+
+The information for this data set is provided through indices in OpenSearch.
+Those are used to calculate the metrics and charts in the dashboard. In case you
+need information about them, it is available below.
+
+| Index Pattern                | Content                       |
+|------------------------------|-------------------------------|
+| [bugzilla](docs/bugzilla.md) | Bugs of the Bugzilla instance |
