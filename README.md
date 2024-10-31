@@ -1,17 +1,17 @@
 # FreeBSD: Characterization of the Bugzilla Backlog
 
 🤝 This analysis is the result of a partnership between Bitergia and the FreeBSD
-Community, as an effort to make a characterization of the backlog from FreeBSD’s Bugzilla
+Community during October 2024, as an effort to make a characterization of the backlog from FreeBSD’s Bugzilla
 instance.
 
 ⚙️ We produced a series of Dashboards to help with this characterization. Learn more
 details in the [Characterization Dashboards](#characterization-dashboards) section.
 
-📈 Here you will find the slide deck summarizing the results from the characterization.
-Although the whole history has been analyzed, we agreed to focus on the open bugs from
-the last two years and the last year, starting with the bugs from the Base System product.
-This analysis can be extended to other periods and products by selecting the appropriate
-options.
+📈 [Here](#slides-characterization-of-the-bugzilla-backlog) you will find the
+slide deck summarizing the results from the characterization. Although the whole history
+has been analyzed, we agreed to focus on the open bugs from the last two years and the
+last year, starting with the bugs from the Base System product. This analysis can be
+extended to other periods and products by selecting the appropriate options.
 
 📁 **Index**
 
@@ -92,8 +92,8 @@ more than 3 months ago.
 Dashboard focused on the Open Bugs needing more attention, submitted during the selected
 period. A Bug will appear as "Unattended" when it does not receive any comment from a user
 different from the author who created it. A bug will appear as "Abandoned" when there are
-other comments, but the last comment was made more than 3 months ago. By default, Bugs
-with severity "Affects Only Me" are excluded.
+other comments, but the last comment was made more than 3 months ago. We recommend to
+exclude the bugs with severity "Affects Only Me" to get more relevant results.
 
 ![Open Bugs - Needing Attention](imgs/Characterization4-Open_Bugs_Needing_Attention.png)
 
