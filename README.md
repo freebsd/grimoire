@@ -1,11 +1,10 @@
 # FreeBSD: Characterization of the Bugzilla Backlog
 
-🤝 This analysis is the result of a partnership between Bitergia and the FreeBSD
-Community during October 2024, as an effort to make a characterization of the backlog from FreeBSD’s Bugzilla
-instance.
+🤝 This analysis is the result of a partnership between Bitergia and the FreeBSD Community during October 2024, as an effort to make a characterization of the backlog from FreeBSD’s Bugzilla instance.
 
-⚙️ We produced a series of Dashboards to help with this characterization. Learn more
-details in the [Characterization Dashboards](#characterization-dashboards) section.
+⚙️ We produced a series of Dashboards to help with this characterization. Learn more details in the [Characterization Dashboards](#characterization-dashboards) section.
+
+These [Characterization Dashboards](#characterization-dashboards) are used by the FreeBSD Project hosted [Grimoire Instance](https://grimoire.freebsd.org).
 
 📈 [Here](#slides-characterization-of-the-bugzilla-backlog) you will find the
 slide deck summarizing the results from the characterization. Although the whole history
@@ -31,7 +30,7 @@ version of the slide deck.
 All these dashboards are available under the `dashboards` folder from this repository.
 The instructions to import them into OpenSearch Dashboards are available in [this section](#How-to-import-the-dashboards-from-OpenSearch-Dashboards).
 
-The dashboards contain instructions on how to use them and interpret the different 
+The dashboards contain instructions on how to use them and interpret the different
 visualizations. In most of the widgets, you will see a little "information" button next
 to the title. If you place your mouse over this button, you will see a helping text.
 
@@ -141,11 +140,11 @@ Now, the dashboards should be available under the “Dashboards” section.
 
 ## Bugzilla Dataset
 
-In this section we describe the structure of the index containing the Bugzilla data. 
+In this section we describe the structure of the index containing the Bugzilla data.
 This index contains one document per Bugzilla ticket.
 
 ### Bugs
-        
+
 The documents in this index are about the bugs reported in a Bugzilla instance (one
 document per bug). BAP can extract information about the reporters, assignees, and
 resolvers of these issues. It can also analyze the status, the number of changes, the
