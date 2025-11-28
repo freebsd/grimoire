@@ -20,6 +20,12 @@ extended to other periods and products by selecting the appropriate options.
 * [Bugzilla Dataset](#bugzilla-dataset).
 * [Useful Links](#useful-links).
 
+🎉 **Outreach** - The outcomes of this project were shared in several places:
+
+* [FreeBSD Blog - From Chaos to Clarity: How We Tackled FreeBSD’s 7,000 Bug Backlog](https://freebsdfoundation.org/blog/from-chaos-to-clarity-how-we-tackled-freebsds-7000-bug-backlog/) (blog post, 3 minutes read)
+* [CHAOSScast #103 - GrimoireLab at FreeBSD](https://podcast.chaoss.community/103) (audio, 36 minutes)
+* [Open Source Summit Europe - From Backlog To Breakthrough: How FreeBSD and Bitergia Tackled 7k+ Bugs With Data-Driven Dashboards](https://www.youtube.com/watch?v=xo0ALLnQ19k) (video, 38 minutes)
+
 ## Slides: Characterization of the Bugzilla Backlog
 
 Click [here](docs/FreeBSD-Characterization_of_the_Bugzilla_Backlog.pdf) to access the PDF
